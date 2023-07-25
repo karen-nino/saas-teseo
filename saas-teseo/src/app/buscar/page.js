@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function buscar() {
 
     return (
@@ -7,9 +9,9 @@ export default function buscar() {
             <section className="flex flex-col items-center justify-center px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 min-w-[1140px]">
 
                 <div className="self-start px-4 max-w-7xl sm:px-6 lg:px-8">
-                    <button type="submit" class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
+                    <Link href={"/"} class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
                         Atrás
-                    </button>
+                    </Link>
                 </div>
 
                 <div className="flex items-center mt-20 mb-10">
@@ -106,12 +108,13 @@ export default function buscar() {
                 </div>
 
             </section>
-
-            <button type="button" class="px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700 right-20 bottom-20 absolute">
-                Ayuda
-            </button>
-
-
+            
+            <div className="flex justify-end mt-20 mr-20">
+                <Link href={"/"} class="px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
+                    Ayuda
+                </Link>    
+            </div> 
+              
         </div>
     );
 }

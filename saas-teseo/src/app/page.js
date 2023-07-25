@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -115,14 +115,14 @@ export default function Home() {
         <div class="overflow-hidden bg-white rounded-md shadow-md w-[225px] p-9">
 
             <div>
-              <button type="submit" class="inline-flex items-center justify-center  text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700 w-40 h-40">
+              <Link href={"/buscar"} class="inline-flex items-center justify-center  text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700 w-40 h-40">
                 <div className='flex flex-col items-center justify-center'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="51" height="50" viewBox="0 0 51 50" fill="none" className='mb-2'>
                       <path d="M32.1695 25.4512C36.8768 25.4512 40.6427 29.2915 40.6427 34.0918C40.6427 35.7815 40.1719 37.3752 39.3434 38.7001L45.1429 44.6525L42.5256 47.3214L36.6509 41.4267C35.3516 42.2523 33.8076 42.7323 32.1695 42.7323C27.4622 42.7323 23.6963 38.8921 23.6963 34.0918C23.6963 29.2915 27.4622 25.4512 32.1695 25.4512ZM32.1695 29.2915C30.921 29.2915 29.7237 29.7972 28.8409 30.6975C27.9581 31.5977 27.4622 32.8187 27.4622 34.0918C27.4622 35.3649 27.9581 36.5859 28.8409 37.4861C29.7237 38.3863 30.921 38.8921 32.1695 38.8921C33.418 38.8921 34.6153 38.3863 35.4981 37.4861C36.3809 36.5859 36.8768 35.3649 36.8768 34.0918C36.8768 32.8187 36.3809 31.5977 35.4981 30.6975C34.6153 29.7972 33.418 29.2915 32.1695 29.2915ZM29.3451 14.1417L18.0476 10.0902V32.9205L19.9305 33.5926V34.0918C19.9305 35.3207 20.0999 36.5111 20.42 37.6248L18.0476 36.78L7.99273 40.7546L7.69146 40.8122C7.44177 40.8122 7.20231 40.7111 7.02575 40.531C6.84919 40.351 6.75 40.1068 6.75 39.8522V10.8199C6.75 10.3783 7.03244 10.0326 7.42785 9.89823L18.0476 6.25L29.3451 10.2823L39.3999 6.25H39.7012C39.9509 6.25 40.1904 6.35115 40.3669 6.5312C40.5435 6.71124 40.6427 6.95544 40.6427 7.21006V25.0864C38.366 22.853 35.3286 21.6072 32.1695 21.611C31.228 21.611 30.2866 21.7262 29.3451 21.9374V14.1417Z" fill="white" />
                     </svg>
                   <p>Buscar</p>
                 </div>
-              </button>
+              </Link>
             </div>
         </div>
 
@@ -141,6 +141,10 @@ export default function Home() {
 
 
       </div>
+
+      <button type="button" class="px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700 right-20 bottom-20 absolute">
+        Ayuda
+      </button>
 
     </main>
   )
