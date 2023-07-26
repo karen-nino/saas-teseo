@@ -37,7 +37,7 @@ export default function buscar() {
                                             <label for="" class="text-base font-medium text-gray-900"> Estado </label>
                                             <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600 w-60">
                                                 <select name="cars" id="cars" className="block w-full py-4 pl-6 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600">
-                                                    <option value="option1">Opción 1</option>
+                                                    <option value="option1">Seleccionar</option>
                                                     <option value="option2">Opción 2</option>
                                                     <option value="option3">Opción 3</option>
                                                 </select>
@@ -48,7 +48,7 @@ export default function buscar() {
                                             <label for="" class="text-base font-medium text-gray-900"> Ciudad </label>
                                             <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600 w-60">
                                                 <select name="cars" id="cars" className="block w-full py-4 pl-6 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600">
-                                                    <option value="option1">Opción 1</option>
+                                                    <option value="option1">Seleccionar</option>
                                                     <option value="option2">Opción 2</option>
                                                     <option value="option3">Opción 3</option>
                                                 </select>
@@ -61,7 +61,7 @@ export default function buscar() {
                                             <label for="" class="text-base font-medium text-gray-900"> Colonia </label>
                                             <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
                                                 <select name="cars" id="cars" className="block w-full py-4 pl-6 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600">
-                                                    <option value="option1">Opción 1</option>
+                                                    <option value="option1">Seleccionar</option>
                                                     <option value="option2">Opción 2</option>
                                                     <option value="option3">Opción 3</option>
                                                 </select>
@@ -72,7 +72,7 @@ export default function buscar() {
                                             <label for="" class="text-base font-medium text-gray-900"> Fraccionamiento </label>
                                             <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
                                                 <select name="cars" id="cars" className="block w-full py-4 pl-6 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600">
-                                                    <option value="option1">Opción 1</option>
+                                                    <option value="option1">Seleccionar</option>
                                                     <option value="option2">Opción 2</option>
                                                     <option value="option3">Opción 3</option>
                                                 </select>
@@ -83,7 +83,7 @@ export default function buscar() {
                                             <label for="" class="text-base font-medium text-gray-900"> Categoría </label>
                                             <div class="mt-2.5 relative text-gray-400 focus-within:text-gray-600">
                                                 <select name="cars" id="cars" className="block w-full py-4 pl-6 pr-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600">
-                                                    <option value="option1">Opción 1</option>
+                                                    <option value="option1">Seleccionar</option>
                                                     <option value="option2">Opción 2</option>
                                                     <option value="option3">Opción 3</option>
                                                 </select>
@@ -93,9 +93,9 @@ export default function buscar() {
 
 
                                     <div className="self-center pt-12">
-                                        <button type="submit" class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
+                                        {/* <button type="submit" class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
                                             Buscar
-                                        </button>
+                                        </button> */}
 
                                         <button type="submit" class="px-8 py-3 text-white bg-neutral-400 rounded focus:outline-none" disabled>Buscar</button>
                                     </div>
