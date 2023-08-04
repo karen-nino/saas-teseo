@@ -96,11 +96,11 @@ export default function buscar() {
 
 
                                     <div className="self-center pt-12">
-                                        {/* <button type="submit" class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
+                                        <Link href={"/buscar/info"} class="inline-flex items-center justify-center px-8 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700">
                                             Buscar
-                                        </button> */}
+                                        </Link>
 
-                                        <button type="submit" class="px-8 py-3 text-white bg-neutral-400 rounded focus:outline-none" disabled>Buscar</button>
+                                        {/* <button type="submit" class="px-8 py-3 text-white bg-neutral-400 rounded focus:outline-none" disabled>Buscar</button> */}
                                     </div>
 
                                 </div>
