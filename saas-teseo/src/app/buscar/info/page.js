@@ -17,29 +17,30 @@ export default function info() {
                     </Link>
                 </div>
 
-                <section class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20">
+                <section class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20 mb-40">
 
                     <div class="min-w-[1140px]">
 
-                        <h2 className="text-2xl font-bold">Highlights</h2>
+                        <h2 className="mb-2 text-2xl font-bold">Información destacada</h2>
+                        <p className="text-sm text-grey-500">Descubre el panorama completo del mercado inmobiliario y explora las características clave de cada de cada segmento y zona de interés.</p>
 
 
                         <div class="grid grid-cols-1 gap-6 px-6 mt-8 sm:px-0 lg:mt-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
-                            
+
                             <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                 <div class="px-4 py-6">
                                     <div class="flex flex-col">
-                                    <div class="ml-4">
-                                        <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                    </div>
-                                    <div className="flex items-center w-full ml-4">
-                                        <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                        <div className="flex justify-end w-full mr-4">
-                                            <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                        <div class="ml-4">
+                                            <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                        </div>
+                                        <div className="flex items-center w-full ml-4">
+                                            <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                            <div className="flex justify-end w-full mr-4">
+                                                <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                            </div>
                                         </div>
                                     </div>
-                                    </div>
-                                </div>  
+                                </div>
                             </div>
 
                             {/* <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
@@ -55,15 +56,68 @@ export default function info() {
                                     </div>
                                 </div>
                             </div> */}
-                            
-                        </div>
 
+                        </div>
 
                     </div>
 
                 </section>
 
+
+
+                <section class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20">
+
+                    <div class="min-w-[1140px]">
+
+                        <h2 className="mb-2 text-2xl font-bold">Información general</h2>
+                        {/* <p className="text-sm text-grey-500">lorem ipsum</p> */}
+
+                        <div class="grid grid-cols-2 gap-6 px-6 mt-8 sm:px-0 lg:mt-16">
+
+                            <div class="overflow-hidden">
+                                <h3>Precio Mercado</h3>
+                                <div class="px-4 py-6 bg-white border border-gray-200 rounded-lg">
+                                    <table class="w-full">
+                                        <tbody>
+                                            <tr>
+                                                <td class="py-4 pr-4 font-medium border-b border-gray-200">Website number</td>
+
+                                                <td class="px-4 py-4 text-center border-b border-gray-200">01</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="py-4 pr-4 font-medium border-b border-gray-200">Server storage</td>
+
+                                                <td class="px-4 py-4 text-center border-b border-gray-200">100 GB</td>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="py-4 pr-4 font-medium border-b border-gray-200">Database</td>
+
+                                                <td class="px-4 py-4 text-center border-b border-gray-200">-</td>
+
+                                            </tr>
+
+
+
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
             </main>
+
+
+
 
         </div>
     );
