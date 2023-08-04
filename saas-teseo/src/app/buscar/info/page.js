@@ -17,15 +17,17 @@ export default function info() {
                     </Link>
                 </div>
 
-                <section class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20 mb-40">
+                <section id="informacion-destacada" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20 mb-40">
 
                     <div class="min-w-[1140px]">
 
-                        <h2 className="mb-2 text-2xl font-bold">Información destacada</h2>
-                        <p className="text-sm text-grey-500">Descubre el panorama completo del mercado inmobiliario y explora las características clave de cada de cada segmento y zona de interés.</p>
+                        <div className="mb-10">
+                            <h2 className="mb-2 text-2xl font-bold">Información destacada</h2>
+                            <p className="text-sm text-grey-500">Descubre el panorama completo del mercado inmobiliario y explora las características clave de cada de cada segmento y zona de interés.</p>
+                        </div>
 
 
-                        <div class="grid grid-cols-1 gap-6 px-6 mt-8 sm:px-0 lg:mt-16 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
+                        <div class="grid grid-cols-1 gap-6 px-6 sm:px-0 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
 
                             <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                 <div class="px-4 py-6">
@@ -65,15 +67,16 @@ export default function info() {
 
 
 
-                <section id="informacion-general" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20">
+                <section id="informacion-general" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
 
                     <div class="min-w-[1140px]">
 
-                        <h2 className="mb-2 text-2xl font-bold">Información general</h2>
-                        {/* <p className="text-sm text-grey-500">lorem ipsum</p> */}
+                        <div className="mb-14">
+                            <h2 className="text-2xl font-bold ">Información general</h2>
+                            {/* <p className="text-sm text-grey-500">lorem ipsum</p> */}
+                        </div>
 
-                        <div class="grid grid-cols-2 gap-6 px-6 mt-8 sm:px-0 lg:mt-16">
-
+                        <div class="grid grid-cols-2 gap-6 px-6 sm:px-0">
 
 
                             <div class="overflow-hidden">
@@ -216,6 +219,129 @@ export default function info() {
                     </div>
 
                 </section>
+
+
+
+
+                <section id="mapa" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
+
+                    <div class="min-w-[1140px]">
+
+                        <div className="mb-10">
+                            <h2 className="mb-2 text-2xl font-bold">Mapa</h2>
+                            {/* <p className="text-sm text-grey-500">Lorem ipsum dolor sit amet consectetur. Maecenas morbi vitae ipsum orci. Nulla dolor sed neque at neque.</p> */}
+                        </div>
+
+
+                        <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
+                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+
+
+                <section id="tendencias" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
+
+                    <div class="min-w-[1140px]">
+
+                        <div className="mb-10">
+                            <h2 className="mb-2 text-2xl font-bold">Tendencias inmobiliario</h2>
+                            {/* <p className="text-sm text-grey-500">Lorem ipsum dolor sit amet consectetur. Maecenas morbi vitae ipsum orci. Nulla dolor sed neque at neque.</p> */}
+                        </div>
+
+
+                        <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
+                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+
+
+                <section id="crecimiento" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
+
+                    <div class="min-w-[1140px]">
+
+                        <div className="mb-10">
+                            <h2 className="mb-2 text-2xl font-bold">Crecimiento Inmobiliario</h2>
+                            <p className="text-sm text-grey-500">Conoce la evolución anual de los días en el mercado, el precio medio de las propiedades y el valor por m2. Observa cómo fluctúan estos indicadores a lo largo del tiempo y obtén insights valiosos para tus decisiones de inversión.</p>
+                        </div>
+
+
+                        <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
+                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+                <section id="mudando" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
+
+                    <div class="min-w-[1140px]">
+
+                        <div className="mb-10">
+                            <h2 className="mb-2 text-2xl font-bold">¿De dónde se están mudando?</h2>
+                            <p className="text-sm text-grey-500">Conoce la tendencia migratoria y la cantidad de personas que han elegido esta ubicación como su nuevo hogar. Nuestra gráfica te brinda una perspectiva clara de la popularidad de la zona y cómo ha sido elegida por los nuevos residentes.</p>
+                        </div>
+
+
+                        <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
+                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+
+
+
+                <section id="mudando" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
+
+                    <div class="min-w-[1140px]">
+
+                        <div className="mb-10">
+                            <h2 className="mb-2 text-2xl font-bold">Distribución de m2 de construcción</h2>
+                            <p className="text-sm text-grey-500">Esta potente herramienta te permitirá identificar rápidamente las proporciones y variaciones entre las clasificaciones inmobiliarias.</p>
+                        </div>
+
+
+                        <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
+                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+
+
 
 
 
