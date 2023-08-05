@@ -1,4 +1,7 @@
 import Link from "next/link";
+import BarChart from "@/app/components/barchart";
+
+
 
 export default function info() {
 
@@ -490,6 +493,17 @@ export default function info() {
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
                             <div class="px-4 py-6 sm:px-8 sm:py-7 w-full bg-blue-300 h-96">
+
+
+
+
+
+                            <BarChart/>
+
+
+
+
+
 
                             </div>
                         </div>
