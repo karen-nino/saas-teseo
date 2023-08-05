@@ -236,6 +236,68 @@ export default function info() {
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
                             <div class="px-4 py-6 sm:px-8 sm:py-7">
 
+
+
+                                <section class="grid grid-cols-4 gap-6 px-6 sm:px-0  xl:gap-x-12">
+
+
+                                <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-3">
+                                        <div class="px-4 py-6">
+
+                                        </div>
+                                    </div>
+
+                                    <div class=" col-span-1 space-y-4">
+
+                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="flex flex-col">
+                                                <div class="ml-4">
+                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                                </div>
+                                                <div className="flex items-center w-full ml-4">
+                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                                    <div className="flex justify-end w-full mr-4">
+                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="flex flex-col">
+                                                <div class="ml-4">
+                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                                </div>
+                                                <div className="flex items-center w-full ml-4">
+                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                                    <div className="flex justify-end w-full mr-4">
+                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="flex flex-col">
+                                                <div class="ml-4">
+                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                                </div>
+                                                <div className="flex items-center w-full ml-4">
+                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                                    <div className="flex justify-end w-full mr-4">
+                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </section>
+
+
+
                             </div>
                         </div>
 
@@ -252,7 +314,7 @@ export default function info() {
                     <div class="min-w-[1140px]">
 
                         <div className="mb-10">
-                            <h2 className="mb-2 text-2xl font-bold">Tendencias inmobiliario</h2>
+                            <h2 className="mb-2 text-2xl font-bold">Tendencias inmobiliarias</h2>
                             {/* <p className="text-sm text-grey-500">Lorem ipsum dolor sit amet consectetur. Maecenas morbi vitae ipsum orci. Nulla dolor sed neque at neque.</p> */}
                         </div>
 
@@ -284,8 +346,71 @@ export default function info() {
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
                             <div class="px-4 py-6 sm:px-8 sm:py-7">
 
+
+
+                                <section class="grid grid-cols-4 gap-6 px-6 sm:px-0  xl:gap-x-12">
+
+                                    <div class=" col-span-1 space-y-4">
+
+                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="flex flex-col">
+                                                <div class="ml-4">
+                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                                </div>
+                                                <div className="flex items-center w-full ml-4">
+                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                                    <div className="flex justify-end w-full mr-4">
+                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="flex flex-col">
+                                                <div class="ml-4">
+                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                                </div>
+                                                <div className="flex items-center w-full ml-4">
+                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                                    <div className="flex justify-end w-full mr-4">
+                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="flex flex-col">
+                                                <div class="ml-4">
+                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                                </div>
+                                                <div className="flex items-center w-full ml-4">
+                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                                    <div className="flex justify-end w-full mr-4">
+                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-3">
+                                        <div class="px-4 py-6">
+
+                                        </div>
+                                    </div>
+
+                                </section>
+
+
+
+
+
                             </div>
                         </div>
+
 
                     </div>
 
@@ -305,6 +430,41 @@ export default function info() {
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
                             <div class="px-4 py-6 sm:px-8 sm:py-7">
+
+                                <section class="grid grid-cols-12 gap-6 px-6 sm:px-0  xl:gap-x-12">
+
+                                    <div class=" col-span-5 space-y-4">
+
+                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="flex flex-col">
+                                                <div class="ml-4">
+                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                                </div>
+                                                <div className="flex items-center w-full ml-4">
+                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                                    <div className="flex justify-end w-full mr-4">
+                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-7">
+                                        <div class="px-4 py-6 flex justify-center items">
+                                            <div className="w-full bg-blue-300 h-96">
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </section>
+
+
+
+
 
                             </div>
                         </div>
@@ -329,7 +489,7 @@ export default function info() {
 
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
-                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+                            <div class="px-4 py-6 sm:px-8 sm:py-7 w-full bg-blue-300 h-96">
 
                             </div>
                         </div>
