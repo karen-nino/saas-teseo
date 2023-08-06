@@ -656,24 +656,67 @@ export default function info() {
 
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
-                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+                            <div>
 
-                                <section class="grid grid-cols-12 gap-6 px-6 sm:px-0  xl:gap-x-12">
+                                <section class="grid grid-cols-12 gap-6 px-6 sm:px-0 xl:gap-x-12">
 
                                     <div class=" col-span-5 space-y-4">
 
-                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                            <div class="flex flex-col">
-                                                <div class="ml-4">
-                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                                </div>
-                                                <div className="flex items-center w-full ml-4">
-                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                                    <div className="flex justify-end w-full mr-4">
-                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
-                                                    </div>
-                                                </div>
+                                        <div className="flex">
+                                            <div>
+                                                <h3 className="font-bold text-md">Inbound</h3>
+                                                <h3 className="text-sm">Metros</h3>
                                             </div>
+                                            <div className="flex flex-col items-end w-full">
+                                                <h3 className="font-bold text-md">Net Search Flow</h3>
+                                                <h3 className="text-sm">Nov 23 - Feb 23</h3>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <table class="w-full">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="py-4 font-bold border-b border-gray-200">1</td>
+
+                                                        <td class="py-4 font-bold border-b border-gray-200 text-left">CDMX</td>
+
+                                                        <td class="py-4 border-b border-gray-200 text-right">5,369</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td class="py-4 font-bold border-b border-gray-200">2</td>
+
+                                                        <td class="py-4 font-bold border-b border-gray-200">Nuevo León</td>
+
+                                                        <td class="py-4 border-b border-gray-200 text-right">1,658</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td class="py-4 font-bold border-b border-gray-200">3</td>
+
+                                                        <td class="py-4 font-bold border-b border-gray-200">Jalisco</td>
+
+                                                        <td class="py-4 border-b border-gray-200 text-right">560</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td class="py-4 font-bold border-b border-gray-200">4</td>
+
+                                                        <td class="py-4 font-bold border-b border-gray-200">Hidalgo</td>
+
+                                                        <td class="py-4 border-b border-gray-200 text-right">499</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td class="py-4 font-bold">5</td>
+
+                                                        <td class="py-4 font-bold">Chihuahua</td>
+
+                                                        <td class="py-4 text-right">271</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
 
                                     </div>
