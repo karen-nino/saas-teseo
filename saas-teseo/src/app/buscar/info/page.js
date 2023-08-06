@@ -147,7 +147,7 @@ export default function info() {
                                         </tbody>
                                     </table>
                                 </div>
-                                
+
                             </div>
 
 
@@ -232,7 +232,7 @@ export default function info() {
                                 <div class="mt-4 bg-white border border-gray-200 rounded-lg">
                                     <table class="w-full">
                                         <tbody>
-                                            
+
                                             <tr className="w-full">
                                                 <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Recámaras</td>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
@@ -245,8 +245,8 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-                                            
-                                            
+
+
                                             <tr className="w-full">
                                                 <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Baños</td>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
@@ -259,8 +259,8 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-                                            
-                                            
+
+
                                             <tr className="w-full">
                                                 <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Estacionamientos</td>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
@@ -273,8 +273,8 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-                                            
-                                            
+
+
                                             <tr className="w-full">
                                                 <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Terreno</td>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
@@ -287,8 +287,8 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-                                            
-                                            
+
+
                                             <tr className="w-full">
                                                 <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">M2 Construido</td>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
@@ -301,8 +301,8 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-                                            
-                                            
+
+
                                             <tr className="w-full">
                                                 <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Precio</td>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
@@ -315,8 +315,8 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-                                            
-                                            
+
+
                                             <tr className="w-full">
                                                 <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Precio M2 Construido</td>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
@@ -329,8 +329,8 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-                                            
-                                            
+
+
                                         </tbody>
                                     </table>
                                 </div>
@@ -362,69 +362,97 @@ export default function info() {
 
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
-                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+                            <div>
+
+                                <article class="grid grid-cols-6 gap-8 items-center">
 
 
-
-                                <section class="grid grid-cols-4 gap-6 px-6 sm:px-0  xl:gap-x-12">
-
-
-                                    <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-3">
-                                        <div class="px-4 py-6">
+                                    <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-4">
+                                        <div>
                                             <div className="w-full bg-blue-300 h-96">
 
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class=" col-span-1 space-y-4">
+                                    <section class="col-span-2 space-y-4">
 
-                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                            <div class="flex flex-col">
-                                                <div class="ml-4">
-                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                                </div>
-                                                <div className="flex items-center w-full ml-4">
-                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                                    <div className="flex justify-end w-full mr-4">
-                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="px-4 py-4">
+                                                <div class="flex flex-col">
+                                                    <div>
+                                                        <h4 class=" text-lg font-bold mb-4">Crecimiento Histórico</h4>
+                                                    </div>
+                                                    <div className="flex w-full">
+                                                        <div>
+                                                            <h3 className="mb-1 text-sm font-light">Propiedad</h3>
+                                                            <p class="text-2xl font-bold ">$921,750</p>
+                                                        </div>
+                                                        <div className="flex items-end justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <h4 class="text-lg text-green-500 mr-1">+36%</h4>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                                    <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                            <div class="flex flex-col">
-                                                <div class="ml-4">
-                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                                </div>
-                                                <div className="flex items-center w-full ml-4">
-                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                                    <div className="flex justify-end w-full mr-4">
-                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="px-4 py-4">
+                                                <div class="flex flex-col">
+                                                    <div>
+                                                        <h4 class=" text-lg font-bold mb-4 text-gray-500">Precio Promedio Propiedad</h4>
+                                                    </div>
+                                                    <div className="flex w-full">
+                                                        <div>
+                                                            <h3 className="mb-1 text-sm font-light">Propiedad</h3>
+                                                            <p class="text-2xl font-bold text-gray-500 ">64</p>
+                                                        </div>
+                                                        <div className="flex items-end justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <h4 class="text-lg text-green-500 mr-1">+36%</h4>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                                    <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                            <div class="flex flex-col">
-                                                <div class="ml-4">
-                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                                </div>
-                                                <div className="flex items-center w-full ml-4">
-                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                                    <div className="flex justify-end w-full mr-4">
-                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="px-4 py-4">
+                                                <div class="flex flex-col">
+                                                    <div>
+                                                        <h4 class=" text-lg font-bold mb-4 text-gray-500">Precio P2 m2</h4>
+                                                    </div>
+                                                    <div className="flex w-full">
+                                                        <div>
+                                                            <h3 className="mb-1 text-sm font-light">Propiedad</h3>
+                                                            <p class="text-2xl font-bold text-gray-500">64</p>
+                                                        </div>
+                                                        <div className="flex items-end justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <h4 class="text-lg text-green-500 mr-1">+5%</h4>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                                    <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </section>
 
 
-                                </section>
+                                </article>
 
 
 
@@ -474,59 +502,124 @@ export default function info() {
 
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
-                            <div class="px-4 py-6 sm:px-8 sm:py-7">
+                            <div>
 
 
 
-                                <section class="grid grid-cols-4 gap-6 px-6 sm:px-0  xl:gap-x-12">
+                                <section class="grid grid-cols-6 gap-6 px-6 sm:px-0  xl:gap-x-12 items-center">
 
-                                    <div class=" col-span-1 space-y-4">
+                                    <article class=" col-span-2 space-y-4">
 
-                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                            <div class="flex flex-col">
-                                                <div class="ml-4">
-                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                                </div>
-                                                <div className="flex items-center w-full ml-4">
-                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                                    <div className="flex justify-end w-full mr-4">
-                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+
+                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="px-4 py-4">
+                                                <div class="flex flex-col">
+                                                    <div className="flex w-full">
+                                                        <div className="w-full">
+                                                            <h4 class="text-xl text-gray-500 mb-4">Precio Medio</h4>
+                                                        </div>
+                                                        <div className="flex items-center justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <div className="flex items-center px-4 py-2 font-bold text-white bg-blue-700 rounded-xl">Ver
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none" className="ml-2">
+                                                                        <path d="M8 10.4C9.10457 10.4 10 9.54932 10 8.49998C10 7.45063 9.10457 6.59998 8 6.59998C6.89543 6.59998 6 7.45063 6 8.49998C6 9.54932 6.89543 10.4 8 10.4Z" fill="#F4F4F5" />
+                                                                        <path d="M15.4698 8.33852C14.8817 6.89341 13.8608 5.64367 12.5332 4.74377C11.2056 3.84386 9.62953 3.33325 7.99979 3.27502C6.37005 3.33325 4.79398 3.84386 3.46639 4.74377C2.1388 5.64367 1.11787 6.89341 0.529787 8.33852C0.490071 8.44289 0.490071 8.55716 0.529787 8.66152C1.11787 10.1066 2.1388 11.3564 3.46639 12.2563C4.79398 13.1562 6.37005 13.6668 7.99979 13.725C9.62953 13.6668 11.2056 13.1562 12.5332 12.2563C13.8608 11.3564 14.8817 10.1066 15.4698 8.66152C15.5095 8.55716 15.5095 8.44289 15.4698 8.33852ZM7.99979 11.5875C7.357 11.5875 6.72864 11.4064 6.19418 11.0672C5.65972 10.7279 5.24316 10.2457 4.99718 9.68156C4.75119 9.11739 4.68683 8.4966 4.81224 7.89768C4.93764 7.29877 5.24717 6.74863 5.70169 6.31683C6.15621 5.88504 6.73531 5.59098 7.36574 5.47185C7.99618 5.35272 8.64965 5.41386 9.24351 5.64755C9.83737 5.88123 10.3449 6.27696 10.7021 6.7847C11.0592 7.29244 11.2498 7.88937 11.2498 8.50002C11.2485 9.31849 10.9056 10.1031 10.2964 10.6818C9.68722 11.2606 8.86133 11.5863 7.99979 11.5875Z" fill="#F4F4F5" />
+                                                                    </svg></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex w-full mt-4">
+                                                        <div>
+                                                            <p class="text-2xl font-bold ">$921,750</p>
+                                                        </div>
+                                                        <div className="flex items-end justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <h4 class="text-lg text-green-500 mr-1">+36%</h4>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                                    <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                            <div class="flex flex-col">
-                                                <div class="ml-4">
-                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                                </div>
-                                                <div className="flex items-center w-full ml-4">
-                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                                    <div className="flex justify-end w-full mr-4">
-                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+
+                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="px-4 py-4">
+                                                <div class="flex flex-col">
+                                                    <div className="flex w-full">
+                                                        <div className="w-full">
+                                                            <h4 class="text-xl text-gray-500 mb-4">Días en el mercado</h4>
+                                                        </div>
+                                                        <div className="flex items-center justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <div className="flex items-center px-4 py-2 text-blue-700 bg-blue-100 rounded-xl">Ver
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none" className="ml-2">
+                                                                        <path d="M8 10.4C9.10457 10.4 10 9.54932 10 8.49998C10 7.45063 9.10457 6.59998 8 6.59998C6.89543 6.59998 6 7.45063 6 8.49998C6 9.54932 6.89543 10.4 8 10.4Z" fill="#2563EB" />
+                                                                        <path d="M15.4698 8.33852C14.8817 6.89341 13.8608 5.64367 12.5332 4.74377C11.2056 3.84386 9.62953 3.33325 7.99979 3.27502C6.37005 3.33325 4.79398 3.84386 3.46639 4.74377C2.1388 5.64367 1.11787 6.89341 0.529787 8.33852C0.490071 8.44289 0.490071 8.55716 0.529787 8.66152C1.11787 10.1066 2.1388 11.3564 3.46639 12.2563C4.79398 13.1562 6.37005 13.6668 7.99979 13.725C9.62953 13.6668 11.2056 13.1562 12.5332 12.2563C13.8608 11.3564 14.8817 10.1066 15.4698 8.66152C15.5095 8.55716 15.5095 8.44289 15.4698 8.33852ZM7.99979 11.5875C7.357 11.5875 6.72864 11.4064 6.19418 11.0672C5.65972 10.7279 5.24316 10.2457 4.99718 9.68156C4.75119 9.11739 4.68683 8.4966 4.81224 7.89768C4.93764 7.29877 5.24717 6.74863 5.70169 6.31683C6.15621 5.88504 6.73531 5.59098 7.36574 5.47185C7.99618 5.35272 8.64965 5.41386 9.24351 5.64755C9.83737 5.88123 10.3449 6.27696 10.7021 6.7847C11.0592 7.29244 11.2498 7.88937 11.2498 8.50002C11.2485 9.31849 10.9056 10.1031 10.2964 10.6818C9.68722 11.2606 8.86133 11.5863 7.99979 11.5875Z" fill="#2563EB" />
+                                                                    </svg></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex w-full mt-4">
+                                                        <div>
+                                                            <p class="text-2xl text-gray-400">$921,750</p>
+                                                        </div>
+                                                        <div className="flex items-end justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <h4 class="text-lg text-green-500 mr-1">+36%</h4>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                                    <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <div class="px-4 py-6 overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                            <div class="flex flex-col">
-                                                <div class="ml-4">
-                                                    <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
-                                                </div>
-                                                <div className="flex items-center w-full ml-4">
-                                                    <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                                    <div className="flex justify-end w-full mr-4">
-                                                        <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+
+                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                            <div class="px-4 py-4">
+                                                <div class="flex flex-col">
+                                                    <div className="flex w-full">
+                                                        <div className="w-full">
+                                                            <h4 class="mb-4 text-xl text-gray-500">Precio m2</h4>
+                                                        </div>
+                                                        <div className="flex items-center justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <div className="flex items-center px-4 py-2 text-blue-700 bg-blue-100 rounded-xl">Ver
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none" className="ml-2">
+                                                                        <path d="M8 10.4C9.10457 10.4 10 9.54932 10 8.49998C10 7.45063 9.10457 6.59998 8 6.59998C6.89543 6.59998 6 7.45063 6 8.49998C6 9.54932 6.89543 10.4 8 10.4Z" fill="#2563EB" />
+                                                                        <path d="M15.4698 8.33852C14.8817 6.89341 13.8608 5.64367 12.5332 4.74377C11.2056 3.84386 9.62953 3.33325 7.99979 3.27502C6.37005 3.33325 4.79398 3.84386 3.46639 4.74377C2.1388 5.64367 1.11787 6.89341 0.529787 8.33852C0.490071 8.44289 0.490071 8.55716 0.529787 8.66152C1.11787 10.1066 2.1388 11.3564 3.46639 12.2563C4.79398 13.1562 6.37005 13.6668 7.99979 13.725C9.62953 13.6668 11.2056 13.1562 12.5332 12.2563C13.8608 11.3564 14.8817 10.1066 15.4698 8.66152C15.5095 8.55716 15.5095 8.44289 15.4698 8.33852ZM7.99979 11.5875C7.357 11.5875 6.72864 11.4064 6.19418 11.0672C5.65972 10.7279 5.24316 10.2457 4.99718 9.68156C4.75119 9.11739 4.68683 8.4966 4.81224 7.89768C4.93764 7.29877 5.24717 6.74863 5.70169 6.31683C6.15621 5.88504 6.73531 5.59098 7.36574 5.47185C7.99618 5.35272 8.64965 5.41386 9.24351 5.64755C9.83737 5.88123 10.3449 6.27696 10.7021 6.7847C11.0592 7.29244 11.2498 7.88937 11.2498 8.50002C11.2485 9.31849 10.9056 10.1031 10.2964 10.6818C9.68722 11.2606 8.86133 11.5863 7.99979 11.5875Z" fill="#2563EB" />
+                                                                    </svg></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex w-full mt-4">
+                                                        <div>
+                                                            <p class="text-2xl text-gray-400">$921,750</p>
+                                                        </div>
+                                                        <div className="flex items-end justify-end w-full">
+                                                            <div className="flex items-center">
+                                                                <h4 class="text-lg text-green-500 mr-1">+36%</h4>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                                    <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                    </div>
 
-                                    <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-3">
+
+                                    </article>
+
+                                    <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-4">
                                         <div class="px-4 py-6">
 
                                             <div className="w-full bg-blue-300 h-96">
