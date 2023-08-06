@@ -1,6 +1,4 @@
 import Link from "next/link";
-import BarChart from "@/app/components/barchart";
-
 
 
 export default function info() {
@@ -33,34 +31,48 @@ export default function info() {
                         <div class="grid grid-cols-1 gap-6 px-6 sm:px-0 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
 
                             <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                <div class="px-4 py-6">
+                                <div class="px-6 py-6">
                                     <div class="flex flex-col">
-                                        <div class="ml-4">
-                                            <h4 class="mt-1.5 text-lg font-medium leading-tight text-gray-500 mb-4">Precio Mercado</h4>
+                                        <div>
+                                            <h4 class=" text-lg text-gray-500 mb-4">Precio Mercado</h4>
                                         </div>
-                                        <div className="flex items-center w-full ml-4">
+                                        <div className="flex items-center w-full">
                                             <p class="text-2xl font-bold text-gray-900">$12,426</p>
-                                            <div className="flex justify-end w-full mr-4">
-                                                <h4 class="text-lg font-medium text-gray-500">+5%</h4>
+                                            <div className="flex justify-end w-full">
+                                                <div className="flex items-center">
+                                                    <h4 class="text-lg text-green-500 mr-1">+5%</h4>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                        <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            {/* <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
-                                <div class="px-4 py-6">
-                                    <div class="flex items-start">
-                                        <svg class="flex-shrink-0 w-12 h-12 text-fuchsia-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-                                        </svg>
-                                        <div class="ml-4">
-                                            <h4 class="text-4xl font-bold text-gray-900">37+</h4>
-                                            <p class="mt-1.5 text-lg font-medium leading-tight text-gray-500">Team members</p>
+                            <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                <div class="px-6 py-6">
+                                    <div class="flex flex-col">
+                                        <div>
+                                            <h4 class="text-lg text-gray-500 mb-4">Precio Mercado</h4>
+                                        </div>
+                                        <div className="flex items-center w-full">
+                                            <p class="text-2xl font-bold text-gray-900">$12,426</p>
+                                            <div className="flex justify-end w-full">
+                                                <div className="flex items-center">
+                                                    <h4 class="text-lg text-red-500 mr-1">-5%</h4>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 8 10" fill="none">
+                                                        <path d="M6.9165 5.83333L3.99984 8.75M3.99984 8.75L1.08317 5.83333M3.99984 8.75L3.99984 1.25" stroke="#EF4444" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </div>
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
+
 
                         </div>
 
@@ -82,8 +94,23 @@ export default function info() {
                         <div class="grid grid-cols-2 gap-6 px-6 sm:px-0">
 
 
-                            <div class="overflow-hidden">
-                                <h3 >Precio Mercado</h3>
+                            <div class="overflow-hidden mb-20">
+                                <div className="flex">
+                                    <div className="flex items-end w-full">
+                                        <h3 className="mr-2">Precio Mercado</h3>
+                                        <div className="flex items-center">
+                                            <h4 class="text-md text-green-500 mr-1">+5%</h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-end w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M11 17H13V11H11V17ZM12 9C12.2833 9 12.521 8.904 12.713 8.712C12.905 8.52 13.0007 8.28267 13 8C13 7.71667 12.904 7.479 12.712 7.287C12.52 7.095 12.2827 6.99933 12 7C11.7167 7 11.479 7.096 11.287 7.288C11.095 7.48 10.9993 7.71733 11 8C11 8.28333 11.096 8.521 11.288 8.713C11.48 8.905 11.7173 9.00067 12 9ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6867 5.825 19.9743 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26333 14.6833 2.00067 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31333 6.88333 4.02567 5.825 4.925 4.925C5.825 4.025 6.88333 3.31267 8.1 2.788C9.31667 2.26333 10.6167 2.00067 12 2C13.3833 2 14.6833 2.26267 15.9 2.788C17.1167 3.31333 18.175 4.02567 19.075 4.925C19.975 5.825 20.6877 6.88333 21.213 8.1C21.7383 9.31667 22.0007 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6867 17.1167 19.9743 18.175 19.075 19.075C18.175 19.975 17.1167 20.6877 15.9 21.213C14.6833 21.7383 13.3833 22.0007 12 22Z" fill="#2563EB" />
+                                        </svg>
+                                    </div>
+                                </div>
 
                                 <div class="px-4 py-2 mt-4 bg-white border border-gray-200 rounded-lg">
                                     <table class="w-full">
@@ -104,30 +131,45 @@ export default function info() {
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
 
                                                 <td class="px-4 py-4 border-b border-gray-200 text-right">$3,090,536.02</td>
-
                                             </tr>
 
                                             <tr>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200">Media:</td>
 
                                                 <td class="px-4 py-4 border-b border-gray-200 text-right">$3,090,536.02</td>
-
                                             </tr>
 
                                             <tr>
                                                 <td class="py-4 pr-4 font-bold ">Promedio:</td>
 
                                                 <td class="px-4 py-4 text-right">$3,090,536.02</td>
-
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
+                                
                             </div>
 
 
-                            <div class="overflow-hidden">
-                                <h3 >Precio Mercado</h3>
+
+
+                            <div class="overflow-hidden mb-20">
+                                <div className="flex">
+                                    <div className="flex items-end w-full">
+                                        <h3 className="mr-2">Casa</h3>
+                                        <div className="flex items-center">
+                                            <h4 class="text-md text-green-500 mr-1">+5%</h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-end w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M11 17H13V11H11V17ZM12 9C12.2833 9 12.521 8.904 12.713 8.712C12.905 8.52 13.0007 8.28267 13 8C13 7.71667 12.904 7.479 12.712 7.287C12.52 7.095 12.2827 6.99933 12 7C11.7167 7 11.479 7.096 11.287 7.288C11.095 7.48 10.9993 7.71733 11 8C11 8.28333 11.096 8.521 11.288 8.713C11.48 8.905 11.7173 9.00067 12 9ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6867 5.825 19.9743 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26333 14.6833 2.00067 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31333 6.88333 4.02567 5.825 4.925 4.925C5.825 4.025 6.88333 3.31267 8.1 2.788C9.31667 2.26333 10.6167 2.00067 12 2C13.3833 2 14.6833 2.26267 15.9 2.788C17.1167 3.31333 18.175 4.02567 19.075 4.925C19.975 5.825 20.6877 6.88333 21.213 8.1C21.7383 9.31667 22.0007 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6867 17.1167 19.9743 18.175 19.075 19.075C18.175 19.975 17.1167 20.6877 15.9 21.213C14.6833 21.7383 13.3833 22.0007 12 22Z" fill="#2563EB" />
+                                        </svg>
+                                    </div>
+                                </div>
 
                                 <div class="px-4 py-2 mt-4 bg-white border border-gray-200 rounded-lg">
                                     <table class="w-full">
@@ -148,21 +190,18 @@ export default function info() {
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
 
                                                 <td class="px-4 py-4 border-b border-gray-200 text-right">$3,090,536.02</td>
-
                                             </tr>
 
                                             <tr>
                                                 <td class="py-4 pr-4 font-bold border-b border-gray-200">Media:</td>
 
                                                 <td class="px-4 py-4 border-b border-gray-200 text-right">$3,090,536.02</td>
-
                                             </tr>
 
                                             <tr>
                                                 <td class="py-4 pr-4 font-bold ">Promedio:</td>
 
                                                 <td class="px-4 py-4 text-right">$3,090,536.02</td>
-
                                             </tr>
                                         </tbody>
                                     </table>
@@ -170,48 +209,134 @@ export default function info() {
                             </div>
 
 
-                            <div class="overflow-hidden">
-                                <h3 >Precio Mercado</h3>
 
-                                <div class="px-4 py-2 mt-4 bg-white border border-gray-200 rounded-lg">
+
+                            <div class="overflow-hidden mb-20">
+                                <div className="flex">
+                                    <div className="flex items-end w-full">
+                                        <h3 className="mr-2">Precio Mercado</h3>
+                                        <div className="flex items-center">
+                                            <h4 class="text-md text-green-500 mr-1">+5%</h4>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10" fill="none">
+                                                <path d="M2.08301 4.16667L4.99967 1.25M4.99967 1.25L7.91634 4.16667M4.99967 1.25V8.75" stroke="#22C55E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="flex justify-end w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M11 17H13V11H11V17ZM12 9C12.2833 9 12.521 8.904 12.713 8.712C12.905 8.52 13.0007 8.28267 13 8C13 7.71667 12.904 7.479 12.712 7.287C12.52 7.095 12.2827 6.99933 12 7C11.7167 7 11.479 7.096 11.287 7.288C11.095 7.48 10.9993 7.71733 11 8C11 8.28333 11.096 8.521 11.288 8.713C11.48 8.905 11.7173 9.00067 12 9ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6867 5.825 19.9743 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26333 14.6833 2.00067 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31333 6.88333 4.02567 5.825 4.925 4.925C5.825 4.025 6.88333 3.31267 8.1 2.788C9.31667 2.26333 10.6167 2.00067 12 2C13.3833 2 14.6833 2.26267 15.9 2.788C17.1167 3.31333 18.175 4.02567 19.075 4.925C19.975 5.825 20.6877 6.88333 21.213 8.1C21.7383 9.31667 22.0007 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6867 17.1167 19.9743 18.175 19.075 19.075C18.175 19.975 17.1167 20.6877 15.9 21.213C14.6833 21.7383 13.3833 22.0007 12 22Z" fill="#2563EB" />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4 bg-white border border-gray-200 rounded-lg">
                                     <table class="w-full">
                                         <tbody>
-                                            <tr>
-                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 ">Precio MAX:</td>
-
-                                                <td class="px-4 py-4 border-b border-gray-200 text-right">$28,500,000.00</td>
+                                            
+                                            <tr className="w-full">
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Recámaras</td>
+                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
                                             </tr>
-
                                             <tr>
-                                                <td class="py-4 pr-4 font-bold border-b border-gray-200">Precio MIN:</td>
-
-                                                <td class="px-4 py-4 border-b border-gray-200 text-right">$157,136.00</td>
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
+                                                <td class="px-4 pl-4 pr-4 text-right border-b border-gray-200">$3,090,536.02</td>
                                             </tr>
-
                                             <tr>
-                                                <td class="py-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
-
-                                                <td class="px-4 py-4 border-b border-gray-200 text-right">$3,090,536.02</td>
-
+                                                <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
+                                                <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
-
+                                            
+                                            
+                                            <tr className="w-full">
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Baños</td>
+                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
+                                            </tr>
                                             <tr>
-                                                <td class="py-4 pr-4 font-bold border-b border-gray-200">Media:</td>
-
-                                                <td class="px-4 py-4 border-b border-gray-200 text-right">$3,090,536.02</td>
-
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
+                                                <td class="px-4 pl-4 pr-4 text-right border-b border-gray-200">$3,090,536.02</td>
                                             </tr>
-
                                             <tr>
-                                                <td class="py-4 pr-4 font-bold ">Promedio:</td>
-
-                                                <td class="px-4 py-4 text-right">$3,090,536.02</td>
-
+                                                <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
+                                                <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
+                                            
+                                            
+                                            <tr className="w-full">
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Estacionamientos</td>
+                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
+                                                <td class="px-4 pl-4 pr-4 text-right border-b border-gray-200">$3,090,536.02</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
+                                                <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
+                                            </tr>
+                                            
+                                            
+                                            <tr className="w-full">
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Terreno</td>
+                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
+                                                <td class="px-4 pl-4 pr-4 text-right border-b border-gray-200">$3,090,536.02</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
+                                                <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
+                                            </tr>
+                                            
+                                            
+                                            <tr className="w-full">
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">M2 Construido</td>
+                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
+                                                <td class="px-4 pl-4 pr-4 text-right border-b border-gray-200">$3,090,536.02</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
+                                                <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
+                                            </tr>
+                                            
+                                            
+                                            <tr className="w-full">
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Precio</td>
+                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
+                                                <td class="px-4 pl-4 pr-4 text-right border-b border-gray-200">$3,090,536.02</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
+                                                <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
+                                            </tr>
+                                            
+                                            
+                                            <tr className="w-full">
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200 bg-gray-200">Precio M2 Construido</td>
+                                                <td class="py-4 pr-4 font-bold border-b border-gray-200 bg-gray-200"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold border-b border-gray-200">Promedio:</td>
+                                                <td class="px-4 pl-4 pr-4 text-right border-b border-gray-200">$3,090,536.02</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="py-4 pl-4 pr-4 font-bold">Media:</td>
+                                                <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
+                                            </tr>
+                                            
+                                            
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
+
+
 
 
 
@@ -244,9 +369,11 @@ export default function info() {
                                 <section class="grid grid-cols-4 gap-6 px-6 sm:px-0  xl:gap-x-12">
 
 
-                                <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-3">
+                                    <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-3">
                                         <div class="px-4 py-6">
+                                            <div className="w-full bg-blue-300 h-96">
 
+                                            </div>
                                         </div>
                                     </div>
 
@@ -402,6 +529,10 @@ export default function info() {
                                     <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-3">
                                         <div class="px-4 py-6">
 
+                                            <div className="w-full bg-blue-300 h-96">
+
+                                            </div>
+
                                         </div>
                                     </div>
 
@@ -495,10 +626,6 @@ export default function info() {
                             <div class="px-4 py-6 sm:px-8 sm:py-7 w-full bg-blue-300 h-96">
 
 
-
-
-
-                            <BarChart/>
 
 
 
