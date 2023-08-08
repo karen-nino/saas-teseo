@@ -6,7 +6,6 @@ export default function info() {
     return (
         <div className='min-h-screen py-10 bg-gray-50 sm:py-16 lg:py-24'>
 
-
             <main className="flex flex-col items-center justify-center px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 min-w-[1140px]">
 
                 <div id="informacion-destacada" className="self-start px-4 max-w-7xl sm:px-6 lg:px-8">
@@ -18,8 +17,8 @@ export default function info() {
                     </Link>
                 </div>
 
-                <section id="informacion-destacada" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20 mb-40">
 
+                <section id="informacion-destacada" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mt-20 mb-40">
                     <div class="min-w-[1140px]">
 
                         <div className="mb-10">
@@ -27,14 +26,13 @@ export default function info() {
                             <p className="text-sm text-grey-500">Descubre el panorama completo del mercado inmobiliario y explora las características clave de cada de cada segmento y zona de interés.</p>
                         </div>
 
-
                         <div class="grid grid-cols-1 gap-6 px-6 sm:px-0 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-12">
 
-                            <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                            <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                 <div class="px-6 py-6">
                                     <div class="flex flex-col">
                                         <div>
-                                            <h4 class=" text-lg text-gray-500 mb-4">Precio Mercado</h4>
+                                            <h4 class="text-gray-500 mb-4">PRECIO MERCADO</h4>
                                         </div>
                                         <div className="flex items-center w-full">
                                             <p class="text-2xl font-bold text-gray-900">$12,426</p>
@@ -49,13 +47,13 @@ export default function info() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </article>
 
-                            <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                            <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                 <div class="px-6 py-6">
                                     <div class="flex flex-col">
                                         <div>
-                                            <h4 class="text-lg text-gray-500 mb-4">Precio Mercado</h4>
+                                            <h4 class="text-gray-500 mb-4">M2 CONSTRUCCIÓN</h4>
                                         </div>
                                         <div className="flex items-center w-full">
                                             <p class="text-2xl font-bold text-gray-900">$12,426</p>
@@ -71,30 +69,22 @@ export default function info() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
+                            </article>
 
                         </div>
-
                     </div>
-
                 </section>
 
 
-
                 <section id="informacion-general" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
-
                     <div class="min-w-[1140px]">
-
                         <div className="mb-14">
                             <h2 className="text-2xl font-bold ">Información general</h2>
-                            {/* <p className="text-sm text-grey-500">lorem ipsum</p> */}
                         </div>
 
                         <div class="grid grid-cols-2 gap-6 px-6 sm:px-0">
 
-
-                            <div class="overflow-hidden mb-20">
+                            <article class="overflow-hidden mb-20">
                                 <div className="flex">
                                     <div className="flex items-end w-full">
                                         <h3 className="mr-2">Precio Mercado</h3>
@@ -105,6 +95,7 @@ export default function info() {
                                             </svg>
                                         </div>
                                     </div>
+
                                     <div className="flex justify-end w-full">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                             <path d="M11 17H13V11H11V17ZM12 9C12.2833 9 12.521 8.904 12.713 8.712C12.905 8.52 13.0007 8.28267 13 8C13 7.71667 12.904 7.479 12.712 7.287C12.52 7.095 12.2827 6.99933 12 7C11.7167 7 11.479 7.096 11.287 7.288C11.095 7.48 10.9993 7.71733 11 8C11 8.28333 11.096 8.521 11.288 8.713C11.48 8.905 11.7173 9.00067 12 9ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6867 5.825 19.9743 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26333 14.6833 2.00067 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31333 6.88333 4.02567 5.825 4.925 4.925C5.825 4.025 6.88333 3.31267 8.1 2.788C9.31667 2.26333 10.6167 2.00067 12 2C13.3833 2 14.6833 2.26267 15.9 2.788C17.1167 3.31333 18.175 4.02567 19.075 4.925C19.975 5.825 20.6877 6.88333 21.213 8.1C21.7383 9.31667 22.0007 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6867 17.1167 19.9743 18.175 19.075 19.075C18.175 19.975 17.1167 20.6877 15.9 21.213C14.6833 21.7383 13.3833 22.0007 12 22Z" fill="#2563EB" />
@@ -147,13 +138,9 @@ export default function info() {
                                         </tbody>
                                     </table>
                                 </div>
+                            </article>
 
-                            </div>
-
-
-
-
-                            <div class="overflow-hidden mb-20">
+                            <article class="overflow-hidden mb-20">
                                 <div className="flex">
                                     <div className="flex items-end w-full">
                                         <h3 className="mr-2">Casa</h3>
@@ -206,12 +193,9 @@ export default function info() {
                                         </tbody>
                                     </table>
                                 </div>
-                            </div>
+                            </article>
 
-
-
-
-                            <div class="overflow-hidden mb-20">
+                            <article class="overflow-hidden mb-20">
                                 <div className="flex">
                                     <div className="flex items-end w-full">
                                         <h3 className="mr-2">Precio Mercado</h3>
@@ -330,43 +314,26 @@ export default function info() {
                                                 <td class="py-4 pl-4 pr-4 text-right">$3,090,536.02</td>
                                             </tr>
 
-
                                         </tbody>
                                     </table>
                                 </div>
-                            </div>
-
-
-
-
-
-
+                            </article>
 
                         </div>
-
                     </div>
-
                 </section>
-
-
 
 
                 <section id="mapa" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
 
                     <div class="min-w-[1140px]">
-
                         <div className="mb-10">
                             <h2 className="mb-2 text-2xl font-bold">Mapa</h2>
-                            {/* <p className="text-sm text-grey-500">Lorem ipsum dolor sit amet consectetur. Maecenas morbi vitae ipsum orci. Nulla dolor sed neque at neque.</p> */}
                         </div>
-
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
                             <div>
-
-                                <article class="grid grid-cols-6 gap-8 items-center">
-
-
+                                <div class="grid grid-cols-6 gap-8 items-center">
                                     <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-4">
                                         <div>
                                             <div className="w-full bg-blue-300 h-96">
@@ -377,7 +344,7 @@ export default function info() {
 
                                     <section class="col-span-2 space-y-4">
 
-                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                        <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                             <div class="px-4 py-4">
                                                 <div class="flex flex-col">
                                                     <div>
@@ -399,9 +366,9 @@ export default function info() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
 
-                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                        <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                             <div class="px-4 py-4">
                                                 <div class="flex flex-col">
                                                     <div>
@@ -423,9 +390,9 @@ export default function info() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
 
-                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                        <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                             <div class="px-4 py-4">
                                                 <div class="flex flex-col">
                                                     <div>
@@ -447,73 +414,50 @@ export default function info() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
 
                                     </section>
 
-
-                                </article>
-
-
-
+                                </div>
                             </div>
                         </div>
-
                     </div>
-
                 </section>
-
-
-
 
 
                 <section id="tendencias" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
 
                     <div class="min-w-[1140px]">
-
                         <div className="mb-10">
                             <h2 className="mb-2 text-2xl font-bold">Tendencias inmobiliarias</h2>
-                            {/* <p className="text-sm text-grey-500">Lorem ipsum dolor sit amet consectetur. Maecenas morbi vitae ipsum orci. Nulla dolor sed neque at neque.</p> */}
                         </div>
-
 
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
-                            <div class="px-4 py-6 sm:px-8 sm:py-7">
-
-                            </div>
+                            <div class="px-4 py-6 sm:px-8 sm:py-7"></div>
                         </div>
-
                     </div>
 
                 </section>
 
 
-
-
-
                 <section id="crecimiento" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
 
                     <div class="min-w-[1140px]">
-
                         <div className="mb-10">
                             <h2 className="mb-2 text-2xl font-bold">Crecimiento Inmobiliario</h2>
                             <p className="text-sm text-grey-500">Conoce la evolución anual de los días en el mercado, el precio medio de las propiedades y el valor por m2. Observa cómo fluctúan estos indicadores a lo largo del tiempo y obtén insights valiosos para tus decisiones de inversión.</p>
                         </div>
 
-
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
                             <div>
+                                <div class="grid grid-cols-6 gap-6 px-6 sm:px-0  xl:gap-x-12 items-center">
 
-
-
-                                <section class="grid grid-cols-6 gap-6 px-6 sm:px-0  xl:gap-x-12 items-center">
-
-                                    <article class=" col-span-2 space-y-4">
-
-
-                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                    <div class=" col-span-2 space-y-4">
+                                        
+                                        <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                             <div class="px-4 py-4">
                                                 <div class="flex flex-col">
+                                                    
                                                     <div className="flex w-full">
                                                         <div className="w-full">
                                                             <h4 class="text-xl text-gray-500 mb-4">Precio Medio</h4>
@@ -528,6 +472,7 @@ export default function info() {
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <div className="flex w-full mt-4">
                                                         <div>
                                                             <p class="text-2xl font-bold ">$921,750</p>
@@ -541,14 +486,16 @@ export default function info() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                    
+                                                </div>   
                                             </div>
-                                        </div>
+                                        </article>
 
 
-                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                        <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                             <div class="px-4 py-4">
                                                 <div class="flex flex-col">
+                                                    
                                                     <div className="flex w-full">
                                                         <div className="w-full">
                                                             <h4 class="text-xl text-gray-500 mb-4">Días en el mercado</h4>
@@ -563,6 +510,7 @@ export default function info() {
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    
                                                     <div className="flex w-full mt-4">
                                                         <div>
                                                             <p class="text-2xl text-gray-400">$921,750</p>
@@ -576,14 +524,16 @@ export default function info() {
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
 
 
-                                        <div class="overflow-hidden bg-white border border-gray-200 rounded-lg">
+                                        <article class="overflow-hidden bg-white border border-gray-200 rounded-lg">
                                             <div class="px-4 py-4">
                                                 <div class="flex flex-col">
+                                                    
                                                     <div className="flex w-full">
                                                         <div className="w-full">
                                                             <h4 class="mb-4 text-xl text-gray-500">Precio m2</h4>
@@ -598,6 +548,7 @@ export default function info() {
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                     <div className="flex w-full mt-4">
                                                         <div>
                                                             <p class="text-2xl text-gray-400">$921,750</p>
@@ -611,55 +562,38 @@ export default function info() {
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
 
-
-
-                                    </article>
+                                    </div>
 
                                     <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-4">
                                         <div class="px-4 py-6">
-
-                                            <div className="w-full bg-blue-300 h-96">
-
-                                            </div>
-
+                                            <div className="w-full bg-blue-300 h-96"></div>
                                         </div>
                                     </div>
 
-                                </section>
-
-
-
-
-
+                                </div>
                             </div>
                         </div>
-
-
                     </div>
 
                 </section>
 
 
-
                 <section id="mudando" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
 
                     <div class="min-w-[1140px]">
-
                         <div className="mb-10">
                             <h2 className="mb-2 text-2xl font-bold">¿De dónde se están mudando?</h2>
                             <p className="text-sm text-grey-500">Conoce la tendencia migratoria y la cantidad de personas que han elegido esta ubicación como su nuevo hogar. Nuestra gráfica te brinda una perspectiva clara de la popularidad de la zona y cómo ha sido elegida por los nuevos residentes.</p>
                         </div>
 
-
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
                             <div>
-
-                                <section class="grid grid-cols-12 gap-6 px-6 sm:px-0 xl:gap-x-12">
-
+                                <div class="grid grid-cols-12 gap-6 px-6 sm:px-0 xl:gap-x-12">
                                     <div class=" col-span-5 space-y-4">
 
                                         <div className="flex">
@@ -718,75 +652,38 @@ export default function info() {
                                                 </tbody>
                                             </table>
                                         </div>
-
+                                        
                                     </div>
 
                                     <div class="overflow-hidden bg-white border border-gray-200 rounded-lg col-span-7">
                                         <div class="px-4 py-6 flex justify-center items">
-                                            <div className="w-full bg-blue-300 h-96">
-
-                                            </div>
-
+                                            <div className="w-full bg-blue-300 h-96"></div>
                                         </div>
                                     </div>
-
-                                </section>
-
-
-
-
-
+                                    
+                                </div>
                             </div>
                         </div>
-
                     </div>
-
                 </section>
-
-
-
-
 
 
                 <section id="mudando" class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 mb-40">
 
                     <div class="min-w-[1140px]">
-
                         <div className="mb-10">
                             <h2 className="mb-2 text-2xl font-bold">Distribución de m2 de construcción</h2>
                             <p className="text-sm text-grey-500">Esta potente herramienta te permitirá identificar rápidamente las proporciones y variaciones entre las clasificaciones inmobiliarias.</p>
                         </div>
 
-
                         <div class="overflow-hidden bg-white rounded-md shadow-md min-w-[1140px] p-9">
-                            <div class="px-4 py-6 sm:px-8 sm:py-7 w-full bg-blue-300 h-96">
-
-
-
-
-
-
-
-
-                            </div>
+                            <div class="px-4 py-6 sm:px-8 sm:py-7 w-full bg-blue-300 h-96"></div>
                         </div>
-
                     </div>
-
+                    
                 </section>
 
-
-
-
-
-
-
-
             </main>
-
-
-
-
         </div>
     );
 }
